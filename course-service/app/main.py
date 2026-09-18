@@ -81,4 +81,4 @@ def health_check() -> dict[str, str]:
     return {
         "status": "healthy",
         "service": "course-service",
-    }
+    }# Trigger CI - 8.1P 
