@@ -13,7 +13,7 @@ from app.models import User, UserRole
 from app.routers import auth, users
 from app.security import hash_password
 
-
+# CI test trigger - practice run
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
